@@ -1,0 +1,28 @@
+{
+  "name": "swagger-typescript-api",
+  "version": "1.0.0",
+  "description": "test with swagger-typescript-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc", 
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardoMundo/swagger-typescript-api.git"
+  },
+  "author": "Gerardo Mundo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerardoMundo/swagger-typescript-api/issues"
+  },
+  "homepage": "https://github.com/gerardoMundo/swagger-typescript-api#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "swagger-typescript-api": "^13.0.3"
+  }
+}
