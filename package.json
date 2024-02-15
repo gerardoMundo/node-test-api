@@ -4,7 +4,7 @@
   "description": "test with swagger-typescript-api",
   "main": "index.js",
   "scripts": {
-    "build": "tsc", 
+    "build": "tsc",
     "dev": "nodemon"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^3.0.3",
     "swagger-typescript-api": "^13.0.3"
   }

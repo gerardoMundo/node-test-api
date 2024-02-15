@@ -1,8 +1,7 @@
+const express = require('express');
 
-function onRequest(req: any, res: any) {
-    res.writeHead(200, {"Content-Type": "text/html"});
-    res.write("Server initialized...");
-    res.end();
-}
+const app = express();
 
-export default onRequest;
+app.set('port', 3001);
+app.use(express.json());
+export default app;

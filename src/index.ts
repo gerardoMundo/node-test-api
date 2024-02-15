@@ -1,8 +1,5 @@
-import onRequest from "./app";
+import app from "./app";
 
-var http = require('http');
+app.listen(app.get("port"));
+console.log("Listen on port: 3000");
 
-
-const server = http.createServer(onRequest);
-
-server.listen(3001)
