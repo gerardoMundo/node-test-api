@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon"
+    "dev": "nodemon", 
+    "docs": "sta -p ./swagger.json -o ./src/docs"
   },
   "repository": {
     "type": "git",
